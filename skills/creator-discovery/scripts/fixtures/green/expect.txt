@@ -1,0 +1,6 @@
+rows read: 7
+yes 2 of 7 (29 percent)
+line 7: instagram:@fixture.lifter is c-abc123 on the roster, status active
+rows on platforms the owner ruled unknown in programme section 3 (a ruling, not a gap; creator-vetting holds them at negotiate): reddit lines 6
+order: discovery order
+RESULT: CLEAN

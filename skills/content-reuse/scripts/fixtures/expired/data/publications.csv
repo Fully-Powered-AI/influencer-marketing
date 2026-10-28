@@ -1,0 +1,6 @@
+publication_id,campaign_slug,creator_ref,platform,post_url,posted_at,format,disclosure_seen,disclosure_form,code_in_post,link_in_post,approval_id,check_day1,check_day7,check_day30,rights_until,notes
+p-cccccc,2026-11-fixture-launch,c-cccccc,instagram,https://example.com/p-cccccc,2026-11-08T18:00Z,reel,yes,caption;spoken;platform_tool,,,2026-11-fixture-launch--c-cccccc--1,live,live,not_checked,2026-11-15,
+p-dddddd,2026-11-fixture-launch,c-dddddd,instagram,https://example.com/p-dddddd,2026-11-08T18:00Z,reel,yes,caption;spoken;platform_tool,,,2026-11-fixture-launch--c-dddddd--1,live,live,not_checked,2027-03-01,
+p-eeeeee,2026-11-fixture-launch,c-eeeeee,instagram,https://example.com/p-eeeeee,2026-11-08T18:00Z,reel,no,,,,2026-11-fixture-launch--c-eeeeee--1,live,live,not_checked,2027-03-01,
+p-ffffff,2026-11-fixture-launch,c-ffffff,instagram,https://example.com/p-ffffff,2026-11-08T18:00Z,reel,yes,caption;spoken;platform_tool,,,2026-11-fixture-launch--c-ffffff--1,live,live,not_checked,,
+p-gggggg,2026-11-fixture-launch,c-gggggg,instagram,https://example.com/p-gggggg,2026-11-08T18:00Z,reel,yes,caption;spoken;platform_tool,,,2026-11-fixture-launch--c-gggggg--1,live,live,not_checked,2027-03-01,

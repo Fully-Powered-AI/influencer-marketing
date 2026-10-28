@@ -1,0 +1,3 @@
+period,creator_ref,display_name,rail,orders_attributed,orders_excluded,gross_sales,refunds,commission_basis,commission_rate_pct,commission_due,flat_fee_due,total_due,holdback_until,status,notes
+2026-07,c-eeeee5,fixture-creator-5,manual,12,1,428.40,35.70,392.70,15,58.91,0.00,58.91,2026-08-30,paid,
+2026-07,c-zzzzz9,fixture-creator-9,manual,3,0,107.10,0.00,107.10,15,16.07,0.00,16.07,,approved,

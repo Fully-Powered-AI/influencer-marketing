@@ -1,0 +1,2 @@
+creator_ref,code,discount_type,discount_value,applies_to,starts_at,ends_at,usage_limit,once_per_customer,status,minted_at,minted_by,notes
+c-ddddd4,OLDCODE15,percentage,15,all,2026-10-01T00:00Z,2026-12-31T23:59Z,,yes,active,2026-09-30T10:00Z,admin_ui,2026-09-30 created in the admin and tested

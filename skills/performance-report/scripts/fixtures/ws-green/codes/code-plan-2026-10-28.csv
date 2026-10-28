@@ -1,0 +1,6 @@
+creator_ref,code,discount_type,discount_value,applies_to,starts_at,ends_at,usage_limit,once_per_customer,status,minted_at,minted_by,notes
+c-aaaaa1,FIXA15,percentage,15,all,2026-11-01T00:00Z,,,false,active,2026-10-28T10:00Z,app,
+c-aaaaa1,FIXAOLD,percentage,10,all,2026-09-01T00:00Z,2026-10-01T00:00Z,,false,disabled,2026-08-30T10:00Z,app,replaced by FIXA15
+c-bbbbb2,FIXB15,percentage,15,all,2026-11-01T00:00Z,,,false,active,2026-10-28T10:00Z,app,
+c-ccccc3,FIXC15,percentage,15,all,2026-11-01T00:00Z,,,false,active,2026-10-28T10:00Z,admin_ui,
+c-ddddd4,FIXD15,percentage,15,all,2026-11-01T00:00Z,,,false,active,2026-10-28T10:00Z,app,

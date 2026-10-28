@@ -1,0 +1,7 @@
+line 2: instagram:@fixture.banned2 matches c-mrg001, a record retired by merge (c-mrg001 merged into c-exc001); the surviving record is c-exc001, status excluded
+line 2: matches c-exc001, excluded on the roster; add a 'screen:' note
+line 3: x:@fixture_gone matches c-mrg004, merged into c-gone99, which is not on the roster; run creator-roster check
+line 4: youtube:@fixture.kept2 matches c-mrg002, a record retired by merge (c-mrg002 merged into c-mrg003, c-mrg003 merged into c-act001); the surviving record is c-act001, status active, notes carry 'do not contact'
+line 4: matches c-act001, whose roster notes carry 'do not contact'; add a 'screen:' note
+line 5: youtube:@fixture.kept4 is c-act002 on the roster, status active, notes carry 'do not contact'
+RESULT: FLAGGED

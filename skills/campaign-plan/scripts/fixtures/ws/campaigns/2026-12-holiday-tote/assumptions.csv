@@ -1,0 +1,4 @@
+tier,creators,expected_orders_per_creator,orders_source,flat_fee,gift_units,gift_unit_cost,compensation,basis
+nano,6,2,user,0,1,6.50,cpa,programme lead's working figure for the window
+micro,4,5,user,0,1,6.50,cpa,programme lead's working figure for the window
+mid,1,12,estimate,150.00,2,6.50,hybrid,the creator's own code results from a 2026-06 campaign with another brand (screenshot in exports/)

@@ -1,0 +1,9 @@
+display_name,platform,handle,profile_url,followers,followers_source,niche_tags,found_via,already_talks_about_category,contact_path,notes
+fixture-dup,instagram,@Fixture.Dup,https://www.instagram.example.com/fixture.dup/,9000,profile,fitness,instagram-search,no,dm,
+fixture-dup-again,instagram,@fixture.dup,https://www.instagram.example.com/fixture.dup.two,9100,profile,fitness,instagram-search,yes,dm,check: says lube in a story
+fixture-alias,instagram,@fixture.alias,https://instagram.example.com/fixture.dup,40000,estimate,lifestyle,lookalike,unknown,dm,seed: instagram:@fixture.seed
+fixture-nourl,x,@fixture_nourl,,12.4k,profile,Comedy,guesswork,unknown,dm,
+fixture-tok,tiktok,@fixture.tok,https://www.tiktok.example.com/@fixture.tok,50000,profile,drag,tiktok-search,unknown,email,
+fixture-banned,instagram,@fixture.banned,https://www.instagram.example.com/fixture.banned,30000,profile,nightlife,arts-culture,unknown,dm,
+fixture-redditor,reddit,u/fixture_redditor,https://www.reddit.example.com/user/fixture_redditor,,,crafts,export,unknown,unknown,
+fixture-ragged,x,@fixture_ragged,https://x.example.com/fixture_ragged,500,profile,comedy,x-search,unknown,dm,check: a, b

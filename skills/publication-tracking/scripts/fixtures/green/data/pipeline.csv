@@ -1,0 +1,4 @@
+campaign_slug,creator_ref,stage,stage_date,next_action,next_action_date,owner_role,last_message_date,offer_summary,notes
+2026-11-launch,c-aaaaa1,live,2026-11-03,day 30 check,2026-12-03,programme lead,,"cpa 15 pct, code 15 pct off, no fee",
+2026-11-launch,c-bbbbb2,live,2026-11-05,day 30 check,2026-12-05,programme lead,,"flat fee, code 15 pct off",
+2026-11-launch,c-ccccc3,approved,2026-12-10,wait for the post,2026-12-14,programme lead,,"cpa 15 pct, code 15 pct off, no fee",

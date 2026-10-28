@@ -1,0 +1,10 @@
+campaign_slug,creator_ref,stage,stage_date,next_action,next_action_date,owner_role,last_message_date,offer_summary,notes
+2026-11-tote-launch,c-aaaaa1,live,2026-11-03,run the day 30 check,2026-12-03,programme lead,2026-11-03,"cpa 15 pct, code 15 pct off, no fee",
+2026-11-tote-launch,c-bbbbb2,live,2026-11-05,run the day 30 check,2026-12-05,programme lead,2026-11-05,"hybrid 10 pct plus fee 200.00",
+2026-11-tote-launch,c-ccccc3,live,2026-11-06,ask for disclosure fix,2026-11-08,programme lead,2026-11-07,"gift, 3 units",
+2026-11-tote-launch,c-ddddd4,live,2026-11-08,run the day 30 check,2026-12-08,programme lead,2026-11-08,"cpa 15 pct, code 15 pct off, no fee",
+2026-11-tote-launch,c-eeeee5,agreed,2026-11-02,send the onboarding kit,2026-11-09,programme lead,2026-11-02,"cpa 15 pct, code 15 pct off, no fee",
+2026-11-tote-launch,c-fffff6,declined,2026-10-28,,,programme lead,2026-10-28,,
+2026-10-always-on,c-ggggg7,live,2026-10-05,monthly check,2026-12-05,programme lead,2026-11-20,"cpa 15 pct, code 10 pct off",
+2026-10-always-on,c-hhhhh8,closed,2026-10-31,,,programme lead,2026-10-31,"cpa 15 pct, code 20 pct off",
+2026-11-tote-launch,c-iiiii9,live,2026-11-03,,,programme lead,2026-11-03,"cpa 15 pct, code 15 pct off, no fee",2026-10-30 merged into c-aaaaa1

@@ -1,0 +1,4 @@
+display_name,platform,handle,profile_url,followers,followers_source,niche_tags,found_via,already_talks_about_category,contact_path,notes
+Fixture Creator A,instagram,@fixture_creator_a,https://www.instagram.example.com/fixture_creator_a,23400,profile,home-design;fitness,instagram-hashtag-recipe,yes,email,
+Fixture Creator B,youtube,@fixture_creator_b,https://www.youtube.example.com/@fixture_creator_b,142000,media_kit,home-decor;education,youtube-search-recipe,yes,agent,
+Fixture Creator C,x,@fixture_creator_c,https://x.example.com/fixture_creator_c,8100,profile,nightlife;drag,x-search-recipe,unknown,dm,

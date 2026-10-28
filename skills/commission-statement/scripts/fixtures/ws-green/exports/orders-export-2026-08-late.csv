@@ -1,0 +1,3 @@
+Name,Email,Financial Status,Paid at,Fulfillment Status,Accepts Marketing,Currency,Subtotal,Shipping,Taxes,Total,Discount Code,Discount Amount,Created at,Lineitem quantity,Lineitem name,Lineitem price,Refunded Amount,Canceled at,Notes,Note Attributes,Tags,Id
+#1013,customer1013@example.com,paid,2026-08-17 10:15:00 -0700,fulfilled,no,USD,30.00,5.00,2.00,37.00,CREATORF15,0.00,2026-08-17 10:15:00 -0700,1,Fixture lubricant 4 oz,30.00,0.00,,,,,551001013
+#1021,customer1021@example.com,paid,2026-08-30 10:15:00 -0700,fulfilled,no,USD,20.00,5.00,2.00,27.00,CREATORF15,0.00,2026-08-30 10:15:00 -0700,1,Fixture lubricant 4 oz,20.00,0.00,,,,,551001021

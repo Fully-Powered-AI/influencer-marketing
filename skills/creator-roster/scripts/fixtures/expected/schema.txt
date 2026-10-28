@@ -1,0 +1,64 @@
+RESULT: the schema as this script reads it from references/schemas.md.
+creators (data/creators.csv, schemas.md section 4): 30 columns
+  creator_ref: a creator_ref such as c-7k2m9q
+  display_name
+  primary_platform: one of instagram, tiktok, youtube, x, onlyfans, reddit, podcast, newsletter, bluesky, threads, other
+  primary_handle: a handle with a leading @
+  profile_url: a URL starting http:// or https://
+  other_platforms: a ';' list of platform:@handle
+  tier: one of nano, micro, mid, macro (bands: nano 0 to under 10000; micro 10000 to under 50000; mid 50000 to under 500000; macro 500000 and up)
+  followers_primary: a whole number
+  followers_as_of: a date written YYYY-MM-DD
+  engagement_rate_pct: a plain decimal with no symbol, such as 34.00 or 15
+  engagement_as_of: a date written YYYY-MM-DD
+  niche_tags: a ';' list of lower-case tags
+  audience_fit_score: a whole number, 0 to 30
+  brand_safety_flag: one of none, review, exclude
+  contact_path: one of email, dm, agent, form, unknown
+  contact_email: an email address
+  status: one of prospect, contacted, negotiating, agreed, active, paused, declined, ended, excluded
+  compensation_model: one of cpa, flat, hybrid, gift, none
+  commission_rate_pct: a plain decimal with no symbol, such as 34.00 or 15
+  flat_fee: a plain decimal with no symbol, such as 34.00 or 15
+  code: upper-case letters and digits only, 4 to 20 characters
+  affiliate_link: a URL starting http:// or https://
+  rail: one of collabs, app, manual, none
+  agreement_date: a date written YYYY-MM-DD
+  agreement_file: a path under agreements/
+  usage_rights_until: a date written YYYY-MM-DD
+  exclusivity_until: a date written YYYY-MM-DD
+  first_campaign: a campaign slug such as 2026-12-holiday-tote
+  last_activity: a date written YYYY-MM-DD
+  notes: dated entries separated by ';'
+pipeline (data/pipeline.csv, schemas.md section 5): 10 columns
+  campaign_slug: a campaign slug such as 2026-12-holiday-tote
+  creator_ref: a creator_ref such as c-7k2m9q
+  stage: one of identified, first_touch, followed_up, replied, negotiating, agreed, declined, no_response, onboarded, briefed, content_due, content_submitted, approved, live, closed
+  stage_date: a date written YYYY-MM-DD
+  next_action
+  next_action_date: a date written YYYY-MM-DD
+  owner_role
+  last_message_date: a date written YYYY-MM-DD
+  offer_summary
+  notes: dated entries separated by ';'
+publications (data/publications.csv, schemas.md section 6): 17 columns
+  publication_id: a publication_id such as p-3x9k2a
+  campaign_slug: a campaign slug such as 2026-12-holiday-tote
+  creator_ref: a creator_ref such as c-7k2m9q
+  platform: one of instagram, tiktok, youtube, x, onlyfans, reddit, podcast, newsletter, bluesky, threads, other
+  post_url: a URL starting http:// or https://
+  posted_at: a UTC time written YYYY-MM-DDTHH:MMZ
+  format: one of video, reel, story, post, thread, newsletter, podcast, live, other
+  disclosure_seen: one of yes, no, partial
+  disclosure_form: list of caption, spoken, on_screen, platform_tool
+  code_in_post
+  link_in_post
+  approval_id: <campaign_slug>--<creator_ref>--<n>
+  check_day1: one of live, removed, edited, not_checked
+  check_day7: one of live, removed, edited, not_checked
+  check_day30: one of live, removed, edited, not_checked
+  rights_until: a date written YYYY-MM-DD
+  notes: dated entries separated by ';'
+shortlist verdicts (schemas.md section 8): engage, negotiate, skip, exclude
+shortlist verdicts that may carry an empty total (schemas.md section 8): skip
+followers_source labels (schemas.md section 7): profile Measured, media_kit User-provided, search_result Estimated, estimate Estimated

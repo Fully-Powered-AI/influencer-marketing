@@ -1,0 +1,8 @@
+creator_ref,display_name,primary_platform,primary_handle,profile_url,other_platforms,tier,followers_primary,followers_as_of,engagement_rate_pct,engagement_as_of,niche_tags,audience_fit_score,brand_safety_flag,contact_path,contact_email,status,compensation_model,commission_rate_pct,flat_fee,code,affiliate_link,rail,agreement_date,agreement_file,usage_rights_until,exclusivity_until,first_campaign,last_activity,notes
+c-exc001,,instagram,@fixture.banned,https://www.instagram.example.com/fixture.banned,,,,,,,,,,,,excluded,,,,,,,,,,,,,2026-08-01 owner: excluded
+c-mrg001,,instagram,@fixture.banned2,https://www.instagram.example.com/fixture.banned2,,,,,,,,,,,,ended,,,,,,,,,,,,,2026-08-02 programme lead: merged into c-exc001 (duplicate record)
+c-mrg004,,x,@fixture_gone,https://x.example.com/fixture_gone,,,,,,,,,,,,ended,,,,,,,,,,,,,2026-08-03 programme lead: merged into c-gone99 (duplicate record)
+c-act001,,youtube,@fixture.kept,https://www.youtube.example.com/@fixture.kept,,,,,,,,,,,,active,,,,,,,,,,,,,2026-08-04 programme lead: do not contact
+c-mrg003,,youtube,@fixture.kept3,https://www.youtube.example.com/@fixture.kept3,,,,,,,,,,,,ended,,,,,,,,,,,,,2026-08-05 programme lead: merged into c-act001 (duplicate record)
+c-mrg002,,youtube,@fixture.kept2,https://www.youtube.example.com/@fixture.kept2,,,,,,,,,,,,ended,,,,,,,,,,,,,2026-08-06 programme lead: merged into c-mrg003 (duplicate record)
+c-act002,,youtube,@fixture.kept4,https://www.youtube.example.com/@fixture.kept4,,,,,,,,,,,,active,,,,,,,,,,,,,2026-08-07 programme lead: do not contact

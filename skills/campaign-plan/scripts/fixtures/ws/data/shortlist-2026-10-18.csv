@@ -1,0 +1,16 @@
+display_name,platform,handle,profile_url,followers,followers_source,niche_tags,found_via,already_talks_about_category,contact_path,notes,audience_fit,engagement_quality,authenticity,brand_safety,sponsored_track_record,contactability,total,confidence,verdict,reasons,scored_as_of,creator_ref,tier,engagement_rate_pct
+Example Nano A,instagram,@example_nano_a,https://example.com/nano-a,4200,profile,home-decor;wellness,recipe-1,yes,dm,,5,4,4,4,3,4,24,high,engage,fixture,2026-10-18,,nano,4.10
+Example Nano B,instagram,@example_nano_b,https://example.com/nano-b,8100,profile,home-decor,recipe-1,yes,email,,4,4,4,4,3,4,23,high,engage,fixture,2026-10-18,,nano,3.20
+Example Nano C,youtube,@example_nano_c,https://example.com/nano-c,9000,profile,wellness,recipe-2,unknown,email,,4,3,4,4,2,4,21,medium,negotiate,fixture,2026-10-18,,nano,2.60
+Example Nano D,x,@example_nano_d,https://example.com/nano-d,3000,profile,home-decor,recipe-2,yes,dm,,4,4,3,4,3,3,21,medium,negotiate,fixture,2026-10-18,,nano,
+Example Nano E,podcast,@example_nano_e,https://example.com/nano-e,2500,media_kit,home-decor;talk,recipe-3,yes,email,,5,3,4,5,2,4,23,medium,engage,fixture,2026-10-18,,nano,
+Example Nano F,instagram,@example_nano_f,https://example.com/nano-f,6600,profile,fitness,recipe-1,no,dm,,4,4,4,4,3,4,23,high,engage,fixture,2026-10-18,,nano,3.80
+Example Nano G,tiktok,@example_nano_g,https://example.com/nano-g,7000,profile,home-decor,recipe-4,yes,dm,,5,4,4,4,3,4,24,high,engage,fixture,2026-10-18,,nano,5.10
+Example Micro A,instagram,@example_micro_a,https://example.com/micro-a,22000,profile,home-decor;nightlife,recipe-1,yes,email,,4,4,4,4,4,4,24,high,engage,fixture,2026-10-18,,micro,2.90
+Example Micro B,instagram,@example_micro_b,https://example.com/micro-b,31000,profile,home-decor,recipe-1,yes,agent,,4,4,4,4,3,4,23,high,engage,fixture,2026-10-18,,micro,2.40
+Example Micro C,youtube,@example_micro_c,https://example.com/micro-c,45000,profile,wellness,recipe-2,yes,email,,4,3,4,4,3,4,22,medium,negotiate,fixture,2026-10-18,,micro,1.90
+Example Micro D,x,@example_micro_d,https://example.com/micro-d,15000,profile,home-decor,recipe-2,unknown,dm,,4,3,3,4,3,3,20,medium,negotiate,fixture,2026-10-18,,micro,
+Example Micro E,instagram,@example_micro_e,https://example.com/micro-e,12000,profile,fashion,recipe-1,no,dm,,2,3,3,4,2,3,17,medium,skip,fixture,2026-10-18,,micro,1.70
+Example Mid A,youtube,@example_mid_a,https://example.com/mid-a,120000,profile,home-decor;talk,recipe-2,yes,agent,,4,4,4,4,4,4,24,high,negotiate,fixture,2026-10-18,c-ab12cd,mid,2.20
+Example Mid B,instagram,@example_mid_b,https://example.com/mid-b,80000,profile,nightlife,recipe-1,yes,agent,,3,3,2,1,3,4,16,medium,exclude,fixture,2026-10-18,,mid,
+Example Nano H,instagram,@example_nano_h,https://example.com/nano-h,12000,profile,home-decor;wellness,recipe-1,yes,dm,tier as vetted; followers grew since,5,4,4,4,3,4,24,high,engage,fixture,2026-10-18,,nano,3.50

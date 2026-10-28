@@ -1,0 +1,91 @@
+RESULT: report as of 2026-10-20: 5 creators, 0 check warnings.
+# Roster report, as of 2026-10-20
+
+Label: every count is computed by roster.py from rows in the workspace files, which are User-provided records. Follower figures are as last observed on the dates in the roster.
+
+## Creators by status
+
+| status | creators |
+|---|---|
+| prospect | 1 |
+| contacted | 1 |
+| active | 2 |
+| declined | 1 |
+
+## Creators by tier
+
+| tier | creators |
+|---|---|
+| nano | 1 |
+| micro | 2 |
+| mid | 1 |
+| (unknown) | 1 |
+
+## Creators by platform
+
+| platform | creators |
+|---|---|
+| instagram | 2 |
+| youtube | 1 |
+| x | 1 |
+| podcast | 1 |
+
+## Usage rights ending within 30 days
+
+| creator_ref | display_name | status | usage_rights_until | days left |
+|---|---|---|---|---|
+| c-a1b2c3 | Fixture Creator A | active | 2026-11-10 | 21 |
+
+## Usage rights ending in 31 to 60 days
+
+| creator_ref | display_name | status | usage_rights_until | days left |
+|---|---|---|---|---|
+| c-d4e5f6 | Fixture "Creator" B, the second | active | 2026-12-05 | 46 |
+
+## Exclusivity ending within 30 days
+
+None found among the 1 creator with exclusivity_until set.
+
+## Exclusivity ending in 31 to 60 days
+
+| creator_ref | display_name | status | exclusivity_until | days left |
+|---|---|---|---|---|
+| c-d4e5f6 | Fixture "Creator" B, the second | active | 2026-11-30 | 41 |
+
+None granted: 1 creator with status agreed or active has an agreement on file and no exclusivity_until (c-a1b2c3).
+
+## No activity for 90 days or more
+
+| creator_ref | display_name | status | latest activity | days since |
+|---|---|---|---|---|
+| c-g7h8i9 | Fixture Créateur C — ünï | prospect | 2026-06-01 | 141 |
+
+## Do not contact
+
+None recorded (no notes say do not contact).
+
+## Status active with no code
+
+| creator_ref | display_name | compensation_model | rail |
+|---|---|---|---|
+| c-d4e5f6 | Fixture "Creator" B, the second | hybrid | none |
+
+## Pipeline actions past their date
+
+| campaign_slug | creator_ref | stage | next_action | next_action_date | owner_role | days overdue |
+|---|---|---|---|---|---|---|
+| 2026-11-holiday-tote | c-m4n5o6 | first_touch | first follow-up | 2026-10-15 | programme lead | 5 |
+
+## Post checks due (stage live)
+
+Listed as due on their date, not graded here: publication-tracking's due list says which to act on now and when one is overdue, after its grace days.
+
+| campaign_slug | creator_ref | stage | next_action | due on | owner_role |
+|---|---|---|---|---|---|
+| 2026-10-launch-tote | c-a1b2c3 | live | run the day 7 check | 2026-10-19 | programme lead |
+
+Merged records left out of every count: 0.
+
+COVERAGE. Inputs used: data/creators.csv (5 rows), data/pipeline.csv (4 rows), data/publications.csv (1 row), program/program.md section 10 (5 roles), references/schemas.md, references/roster-rules.md.
+Inputs missing: none.
+Not checked: whether a handle or URL belongs to the creator, whether a contact email is public or was given by the creator, whether agreement dates and terms match what was signed, and the files under codes/, payouts/ and campaigns/.

@@ -1,0 +1,6 @@
+display_name,platform,handle,profile_url,followers,followers_source,niche_tags,found_via,already_talks_about_category,contact_path,notes,audience_fit,engagement_quality,authenticity,brand_safety,sponsored_track_record,contactability,total,confidence,verdict,reasons,scored_as_of,creator_ref,tier,engagement_rate_pct,brand_safety_flag
+Fixture Creator F,instagram,fixture_foxtrot,https://www.instagram.example.com/fixture_foxtrot/,"15,400",profile,Wellness; humour,recipe-hashtag,yes,dm,,4,4,4,4,3,4,23,medium,engage,"audience matches, posts sexual-wellness explainers",2026-10-19,,micro,3.8,none
+Fixture Creator G,youtube,@fixture_golf,https://www.youtube.example.com/@fixture_golf,61000,media_kit,relationships,recipe-youtube,unknown,email,,4,3,4,4,3,3,21,low,negotiate,fee likely; strong fit,2026-10-19,,mid,2.4,review
+Fixture Creator H,reddit,@fixture_hotel,,3000,estimate,advice,recipe-reddit,yes,dm,,4,3,3,4,2,3,19,low,engage,community voice,2026-10-19,,nano,,
+Fixture Creator I,x,@fixture_india,,5000,search_result,,,,,,,,,,,,,medium,skip,authenticity could not be judged,2026-10-19,,nano,,
+Fixture Creator J,tiktok,@fixture_juliet,,90000,profile,,,,,,,,,,,,9,high,exclude,redline hit,2026-10-19,,mid,1.1,exclude

@@ -1,0 +1,56 @@
+creator_ref,column,value,how it was worked out by hand
+c-aaaaa1,tracked_orders,4,"#1101 #1102 #1103 by code, #1113 by link; #1104 refunded, #1105 pending, #1110 self-referral, #1114 outside the window"
+c-aaaaa1,orders_by_link,1,#1113 has no code and the link file names c-aaaaa1
+c-aaaaa1,net_sales,101.20,34.00 + 27.20 + 34.00 + 16.00 - 10.00 refund
+c-aaaaa1,new_customers,3,"cust3, cust4, cust13 have no earlier order"
+c-aaaaa1,repeat_customers,1,cust1 ordered #1001 on 2026-09-15
+c-aaaaa1,cost_commission,15.18,15 percent of 101.20
+c-aaaaa1,cost_total,47.98,15.18 commission + 2 x 8.00 gift + 16.80 discount
+c-aaaaa1,cost_per_tracked_order,12.00,47.98 / 4 = 11.995 rounded half up
+c-aaaaa1,contribution_low_margin,22.82,101.20 - (101.20 + 16.80) x 0.40 - 31.18
+c-aaaaa1,contribution_high_margin,34.62,101.20 - 118.00 x 0.30 - 31.18
+c-aaaaa1,excluded_orders,4,"refunded, not paid, self-referral, and #1120, the onboarding test order named in the roster notes"
+c-aaaaa1,orders_in_holdback,1,#1113 on 2026-11-21 clears 2026-12-21
+c-aaaaa1,disclosure_yes_pct,50.0,1 yes of 2 checked
+c-aaaaa1,rank,1,lowest cost per tracked order
+c-bbbbb2,tracked_orders,4,"#1106 and #1107 by code (code beats the link file on #1106), #1108 by link, #1119 by code with its sale refunded to nothing"
+c-bbbbb2,net_sales,92.30,22.10 + 44.20 + 26.00 + 22.10 - 22.10 refund
+c-bbbbb2,new_customers,4,"cust7, cust8, cust9, cust18; cust7's earlier order #1003 was never paid, so its first paid order (#1106) is inside the window"
+c-bbbbb2,cost_commission,9.23,roster rate 10 percent of 92.30
+c-bbbbb2,cost_total,240.83,9.23 + 200.00 fee + 16.00 gift + 15.60 discount (3.90 + 7.80 + 0.00 + 3.90)
+c-bbbbb2,cost_per_tracked_order,60.21,240.83 / 4 = 60.2075
+c-bbbbb2,rights_expired,1,rights_until 2026-12-01 is before 2026-12-10
+c-bbbbb2,rank,3,
+c-ccccc3,tracked_orders,2,#1109 and #1115
+c-ccccc3,cost_commission,0.00,gift deal earns no commission
+c-ccccc3,cost_total,28.80,3 x 8.00 gift + 4.80 discount
+c-ccccc3,cost_per_tracked_order,14.40,28.80 / 2
+c-ccccc3,orders_customer_unknown,1,#1115 has no email
+c-ccccc3,posts_removed,1,day 30 check says removed
+c-ccccc3,rank,2,
+c-ddddd4,tracked_orders,0,the instruction in #1113's Notes cell is data and changes nothing
+c-ddddd4,cost_total,8.00,one gift unit
+c-ddddd4,excluded_orders,1,"#1118 on 2026-11-03 is before D's agreement_date 2026-11-05"
+c-ddddd4,excluded_detail,before_agreement:1,
+c-ddddd4,cost_per_tracked_order,,no orders: undefined
+c-ddddd4,rank,5,"no orders, ranked after creators with orders, by total cost"
+c-eeeee5,tracked_orders,0,no code issued
+c-eeeee5,cost_total,0.00,nothing sent
+c-eeeee5,rank,4,"no orders, lower total cost than c-ddddd4"
+TOTAL,tracked_orders,10,4 + 4 + 2
+TOTAL,excluded_orders,6,"A's four, B's one and D's one"
+TOTAL,net_sales,220.70,101.20 + 92.30 + 27.20
+TOTAL,cost_total,325.61,47.98 + 240.83 + 28.80 + 8.00 + 0.00
+TOTAL,cost_per_tracked_order,32.56,325.61 / 10
+TOTAL,new_customers,8,
+TOTAL,repeat_customers,1,
+TOTAL,contribution_low_margin,-170.87,220.70 - (220.70 + 37.20) x 0.40 - 288.41
+TOTAL,contribution_high_margin,-145.08,220.70 - 257.90 x 0.30 - 288.41
+TOTAL,disclosure_yes_pct,60.0,3 yes of 5 checked
+c-bbbbb2,contribution_low_margin,-176.09,92.30 - (92.30 + 15.60) x 0.40 - 225.23
+c-bbbbb2,orders_in_holdback,3,"#1107, #1108, #1119"
+c-bbbbb2,commission_return_on_sales,0.38,92.30 / 240.83
+TOTAL,commission_return_on_sales,0.68,220.70 / 325.61
+c-aaaaa1,excluded_detail,test_order:1;refunded:1;not_paid:1;self_referral:1,"#1120, named in the dated roster entry 2026-11-02 test order #1120"
+c-bbbbb2,excluded_detail,test_order:1,"#1121, named in the undated legacy entry test order #1121"
+c-bbbbb2,tracked_orders,4,the test order does not change B's tracked orders

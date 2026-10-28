@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+/.test-tmp/
+/.test-results/
+/.venv/
+/.env
+/.env.*
+/workspace/
+/exports/
+/data/
+/program/
+/campaigns/
+/agreements/
+/codes/
+/payouts/

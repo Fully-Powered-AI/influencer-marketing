@@ -1,0 +1,5 @@
+campaign_slug,creator_ref,stage,stage_date,next_action,next_action_date,owner_role,last_message_date,offer_summary,notes
+2026-11-launch,c-aaaaa1,agreed,2026-10-15,onboard: code and welcome kit,2026-10-20,programme lead,2026-10-15,"cpa 15 pct, code 15 pct off, no fee",
+2026-11-launch,c-bbbbb2,agreed,2026-10-16,onboard: code and welcome kit,2026-10-20,programme lead,2026-10-16,"hybrid 10 pct plus 250 fee, code 15 pct off",
+2026-11-launch,c-ccccc3,negotiating,2026-10-12,reply to counter-offer,2026-10-21,programme lead,2026-10-12,"cpa 15 pct, code 15 pct off",
+2026-09-pilot,c-ddddd4,live,2026-10-01,day 30 check,2026-10-31,programme lead,2026-10-01,"cpa 15 pct, code 15 pct off",

@@ -1,0 +1,2 @@
+SKIPPED: roster match skipped: data/creators.csv lacks status
+RESULT: PARTIAL

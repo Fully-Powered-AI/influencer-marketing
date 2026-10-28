@@ -1,0 +1,3 @@
+period,creator_ref,display_name,rail,amount,currency,statement_status,notes
+2026-08,c-aaa111,Creator A (fixture),manual,47.00,USD,draft,owner approval required before payment
+2026-08,c-ccc333,Creator C (fixture),manual,169.00,USD,draft,owner approval required before payment

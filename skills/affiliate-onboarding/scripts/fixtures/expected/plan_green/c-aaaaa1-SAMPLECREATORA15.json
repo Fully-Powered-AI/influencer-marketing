@@ -1,0 +1,28 @@
+{
+  "query": "mutation CreateCreatorCode($input: DiscountCodeBasicInput!) {\n  discountCodeBasicCreate(basicCodeDiscount: $input) {\n    codeDiscountNode {\n      id\n      codeDiscount {\n        ... on DiscountCodeBasic {\n          title\n          codes(first: 10) { nodes { code } }\n          startsAt\n          endsAt\n        }\n      }\n    }\n    userErrors { field message code }\n  }\n}\n",
+  "variables": {
+    "input": {
+      "title": "Creator code c-aaaaa1 SAMPLECREATORA15",
+      "code": "SAMPLECREATORA15",
+      "startsAt": "2026-11-01T00:00:00Z",
+      "endsAt": "2026-12-31T23:59:59Z",
+      "context": {
+        "all": "ALL"
+      },
+      "customerGets": {
+        "value": {
+          "percentage": 0.15
+        },
+        "items": {
+          "all": true
+        }
+      },
+      "combinesWith": {
+        "orderDiscounts": false,
+        "productDiscounts": false,
+        "shippingDiscounts": false
+      },
+      "appliesOncePerCustomer": true
+    }
+  }
+}

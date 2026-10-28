@@ -1,0 +1,15 @@
+platform instagram, handle fixture.dup: lines 2, 3
+profile_url instagram.example.com/fixture.dup: lines 2, 4
+line 3: already talks about the category is yes but notes carry no 'talks:' or 'mentions' entry with a URL
+line 4: followers_source is estimate
+line 5: no profile_url
+line 5: followers '12.4k' is not digits only
+line 5: found_via 'guesswork' is not a recipe id
+line 6: contact_path is email but notes carry no 'contact:' entry
+line 6: programme section 3 says no to organic creator posts on 'tiktok'
+line 7: matches c-exc001, excluded on the roster
+line 8: found_via is export but notes carry no 'export:
+line 8: programme section 3 has no decision for organic creator posts on 'reddit'
+line 9: has 12 cells where the header has 11
+order: NOT in discovery order
+RESULT: FLAGGED

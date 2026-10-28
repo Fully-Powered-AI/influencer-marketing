@@ -1,0 +1,2 @@
+period,creator_ref,display_name,rail,orders_attributed,orders_excluded,gross_sales,refunds,commission_basis,commission_rate_pct,commission_due,flat_fee_due,total_due,holdback_until,status,notes
+2026-07,c-fff666,Creator F (fixture),manual,1,0,53.33,0.00,53.33,15,8.00,0.00,8.00,2026-08-30,draft,2026-09-01 final statement;rate from programme section 4;below minimum 25.00: carried forward 8.00
