@@ -1,6 +1,8 @@
 # Influencer Marketing
 
-Part of **Fully Powered Capability Templates** by [Fully Powered AI](https://fullypowered.ai/).
+Part of **FullyPowered Workflow Templates** by [FullyPowered AI](https://fullypowered.ai/).
+
+These are examples and a starting point, not a complete set. FullyPowered AI can build any workflow for your company, including one that runs several steps, in a [Workflow Sprint or a scoped implementation](https://fullypowered.ai/pricing/).
 
 Build a creator programme around your products, your audience and your operating rules. This package brings together 14 skills for planning campaigns, finding creators, preparing partnerships, reviewing content, tracking posts and reconciling commissions.
 
@@ -126,7 +128,7 @@ Root `.gitignore` entries for runtime folders are anchored so fixture subdirecto
 
 ## License and sources
 
-MIT — copyright 2026 Fully Powered AI. See [LICENSE](LICENSE). [SOURCES.md](SOURCES.md) credits upstream ideas and preserves their recorded repositories, commits, paths and licenses. Third-party projects retain their own licenses. This public package excludes customer records, real brand evidence and operational exports.
+MIT — copyright 2026 FullyPowered AI. See [LICENSE](LICENSE). [SOURCES.md](SOURCES.md) credits upstream ideas and preserves their recorded repositories, commits, paths and licenses. Third-party projects retain their own licenses. This public package excludes customer records, real brand evidence and operational exports.
 
 ## Public releases
 
