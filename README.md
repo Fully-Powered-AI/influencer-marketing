@@ -5,7 +5,7 @@ FullyPowered Workflow Templates for consumer and product brands turn the AI your
 We are FullyPowered AI. We build AI workflows for companies, and these are the templates we start from. We publish them because a good starting point should be open to everyone. Copy one. Change it. Make it yours.
 
 > [!TIP]
-> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for consumer and product brands](https://fullypowered.ai/functions/marketing-and-content/influencer-and-affiliate-marketing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=influencer-marketing-readme&from=gh-influencer-marketing-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=influencer-marketing-readme&from=gh-influencer-marketing-readme) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for consumer and product brands](https://fullypowered.ai/functions/marketing-and-content/influencer-and-affiliate-marketing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=influencer-marketing-readme&from=gh-influencer-marketing-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=influencer-marketing-readme&from=gh-influencer-marketing-readme). Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
 **Who this is for**
 
@@ -26,19 +26,29 @@ We are FullyPowered AI. We build AI workflows for companies, and these are the t
 1. **Try it now: check a creator's draft post before it goes live.** Copy this into ChatGPT, Claude, Copilot or Gemini. Replace each part in square brackets with your own details. It is a short version of the content check in this collection, and it works without downloading anything.
 
    ```text
-   Review a creator's draft post for my brand before it goes live. Do not rewrite their post and do not send anything.
+   Review a creator's draft post for my brand before it goes live. Do not
+   rewrite their post and do not send anything.
 
    Check three things:
-   1. Every statement about the product. Compare each one with my cleared list. A statement on my never-say list means stop. A statement on neither list is a question for me, not an approval.
-   2. The disclosure. Is my required wording there, and is it where my rule says it must be?
-   3. The discount code and link. Do they match the ones I give you exactly?
+   1. Every statement about the product. Compare each one with my cleared
+   list. A statement on my never-say list means stop. A statement on
+   neither list is a question for me, not an approval.
+   2. The disclosure. Is my required wording there, and is it where my rule
+   says it must be?
+   3. The discount code and link. Do they match the ones I give you
+   exactly?
 
-   For each check, quote what you saw in the draft. Then give one verdict: approve, approve with the changes listed, or stop. Last, write a short note to the creator. Ask only for changes to the checks that failed. Leave their own words, jokes and opinions alone.
+   For each check, quote what you saw in the draft. Then give one verdict:
+   approve, approve with the changes listed, or stop. Last, write a short
+   note to the creator. Ask only for changes to the checks that failed.
+   Leave their own words, jokes and opinions alone.
 
-   Draft post, exactly as written: [paste the caption, or a transcript of the video]
+   Draft post, exactly as written: [paste the caption, or a transcript of
+   the video]
    Product statements we have cleared, word for word: [list]
    Statements the creator must never make: [list]
-   Disclosure wording we require, and where it must appear: [for example "#ad", at the start of the caption]
+   Disclosure wording we require, and where it must appear: [for example
+   "#ad", at the start of the caption]
    This creator's code and link: [code] [link]
    ```
 
