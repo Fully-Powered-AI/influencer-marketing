@@ -2,7 +2,9 @@
 
 Part of **FullyPowered Workflow Templates** by [FullyPowered AI](https://fullypowered.ai/).
 
-These are examples and a starting point, not a complete set. FullyPowered AI can build any workflow for your company, including one that runs several steps, in a [Workflow Sprint or a scoped implementation](https://fullypowered.ai/pricing/).
+**These are templates, made to be customized and deployed.** They are examples and a starting point, not a complete list: copy one, change it to fit how your team does the work, and run it in the AI you already pay for.
+
+**FullyPowered AI customizes and builds AI workflows that run in ChatGPT, Claude, Copilot and Gemini**, including ones that run several steps. [Browse all the workflow templates](https://fullypowered.ai/workflows/?from=gh-influencer-marketing) · [Have one built for your team](https://fullypowered.ai/pricing/?from=gh-influencer-marketing)
 
 Build a creator programme around your products, your audience and your operating rules. This package brings together 14 skills for planning campaigns, finding creators, preparing partnerships, reviewing content, tracking posts and reconciling commissions.
 
