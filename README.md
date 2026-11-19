@@ -1,10 +1,73 @@
-# Influencer Marketing
+# AI for influencer marketing: creator programme workflow templates
 
-Part of **FullyPowered Workflow Templates** by [FullyPowered AI](https://fullypowered.ai/).
+FullyPowered Workflow Templates for consumer and product brands turn the AI your company already pays for into a team that knows how the work is done: a brand team with a first creator campaign planned and budgeted, a programme lead with each creator's fit scored and the evidence listed, a finance lead with the month's creator commissions reconciled and ready to review. Workflow templates, made to be customized and deployed. All plain Markdown, all free, MIT license.
 
-**These are templates, made to be customized and deployed.** They are examples and a starting point, not a complete list: copy one, change it to fit how your team does the work, and run it in the AI you already pay for.
+We are FullyPowered AI. We build AI workflows for companies, and these are the templates we start from. We publish them because a good starting point should be open to everyone. Copy one. Change it. Make it yours.
 
-**FullyPowered AI customizes and builds AI workflows that run in ChatGPT, Claude, Copilot and Gemini**, including ones that run several steps. [Browse all the workflow templates](https://fullypowered.ai/workflows/?from=gh-influencer-marketing) · [Have one built for your team](https://fullypowered.ai/pricing/?from=gh-influencer-marketing)
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for consumer and product brands](https://fullypowered.ai/functions/marketing-and-content/influencer-and-affiliate-marketing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=influencer-marketing-readme&from=gh-influencer-marketing-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=influencer-marketing-readme&from=gh-influencer-marketing-readme) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
+
+**Who this is for**
+
+- Founders and brand owners who want a creator programme that runs on clear, written rules.
+- Marketing leads who want outreach, briefs and approvals their team can run this week.
+- The programme manager, who gets careful preparation at every step and still makes the call.
+
+**What these are for**
+
+- **Your best way of doing it, for the whole team.** One piece of work, written down precisely enough that an assistant prepares it the same way every time.
+- **Work you can check.** Every template says what it needs, what it produces, what it checked and what it could not.
+- **A person decides.** Anything that sends, posts, pays or changes a record waits for someone to approve it.
+- **Tied into your business systems.** A workflow can be designed to pull from the systems your company already runs, and even push data back into them, with guardrails and a person approving. [Browse the Connectors Directory](https://fullypowered.ai/connectors/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=influencer-marketing-readme&from=gh-influencer-marketing-readme).
+- **Free, open and portable.** MIT-licensed plain instructions that run in the assistant or agent your team already uses: ChatGPT, Claude, Claude Code, Claude Cowork, Codex, Copilot, Gemini, Grok, Perplexity.
+
+**Quick start**
+
+1. **Try it now: check a creator's draft post before it goes live.** Copy this into ChatGPT, Claude, Copilot or Gemini. Replace each part in square brackets with your own details. It is a short version of the content check in this collection, and it works without downloading anything.
+
+   ```text
+   Review a creator's draft post for my brand before it goes live. Do not rewrite their post and do not send anything.
+
+   Check three things:
+   1. Every statement about the product. Compare each one with my cleared list. A statement on my never-say list means stop. A statement on neither list is a question for me, not an approval.
+   2. The disclosure. Is my required wording there, and is it where my rule says it must be?
+   3. The discount code and link. Do they match the ones I give you exactly?
+
+   For each check, quote what you saw in the draft. Then give one verdict: approve, approve with the changes listed, or stop. Last, write a short note to the creator. Ask only for changes to the checks that failed. Leave their own words, jokes and opinions alone.
+
+   Draft post, exactly as written: [paste the caption, or a transcript of the video]
+   Product statements we have cleared, word for word: [list]
+   Statements the creator must never make: [list]
+   Disclosure wording we require, and where it must appear: [for example "#ad", at the start of the caption]
+   This creator's code and link: [code] [link]
+   ```
+
+2. Read what comes back. It marks what it checked and what is left for you. What a result looks like, for an invented home-goods brand:
+
+   ```text
+   Input, in short: Cedar Lane, an invented home-goods brand. Cleared statement: "Cotton canvas construction". Never say: "waterproof". Required disclosure: "#ad" at the start of the caption. Code: CEDAR15.
+
+   Verdict: Stop. Two changes are needed before this goes live.
+
+   Product statements
+   - "Cotton canvas construction, and it feels sturdy": the first part matches your cleared list. "Feels sturdy" is the creator's opinion, so it was left alone.
+   - "Basically waterproof, so it survives the farmers market in the rain": "waterproof" is on your never-say list.
+
+   Disclosure
+   - "#ad" is present, but it sits at the end of the caption with six other hashtags. Your rule puts it at the start.
+
+   Code and link
+   - CEDAR15 and the link match what you supplied.
+
+   Note to the creator
+   "Thanks for this. The photos at the market look great. Two things before it goes up: please move #ad to the very start of the caption, and drop the line about it being waterproof, because that is something we can't say. Everything else is yours to keep as written."
+   ```
+
+3. Stop there. You will know if this is for you. When you want it fitted to your company, or built into your agents, [that is what we do](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=influencer-marketing-readme&from=gh-influencer-marketing-readme).
+
+You stay in charge at every step. You supply the details, choose which creators to approach, send each message yourself and approve any payment. The templates prepare the drafts and run the checks.
+
+These are templates and samples, made to be customized and deployed. Treat each one as a first draft to adapt: your products, your platforms, your rules for paying creators. Your team's creator work may run in a different order or need steps that are missing here, and that is expected. FullyPowered AI builds workflows to fit how a company already works, whether that is a single step or a long chain of them.
 
 Build a creator programme around your products, your audience and your operating rules. This package brings together 14 skills for planning campaigns, finding creators, preparing partnerships, reviewing content, tracking posts and reconciling commissions.
 
