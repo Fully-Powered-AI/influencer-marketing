@@ -52,10 +52,10 @@ We are FullyPowered AI. We build AI workflows for companies, and these are the t
    This creator's code and link: [code] [link]
    ```
 
-2. Read what comes back. It marks what it checked and what is left for you. What a result looks like, for an invented home-goods brand:
+2. Read what comes back. It marks what it checked and what is left for you. What a result looks like, for a home-goods brand:
 
    ```text
-   Input, in short: Cedar Lane, an invented home-goods brand. Cleared statement: "Cotton canvas construction". Never say: "waterproof". Required disclosure: "#ad" at the start of the caption. Code: CEDAR15.
+   Input, in short: Cedar Lane, a home-goods brand. Cleared statement: "Cotton canvas construction". Never say: "waterproof". Required disclosure: "#ad" at the start of the caption. Code: CEDAR15.
 
    Verdict: Stop. Two changes are needed before this goes live.
 
@@ -197,7 +197,7 @@ From the package root:
 python3 -B tests/run_tests.py
 ```
 
-This runs all 14 existing fixture suites plus focused public-configuration tests. Logs go to `.test-results/`, temporary work to `.test-tmp/`, and a nonzero exit means at least one check failed. Fixtures use invented entities and example.com addresses; simulated store calls never need credentials. The tests cover parsing, failure cases, identifier/CSV consistency, attribution and accounting as well as configurable brand/audience behavior. They do not certify live platform compatibility or legal compliance.
+This runs all 14 existing fixture suites plus focused public-configuration tests. Logs go to `.test-results/`, temporary work to `.test-tmp/`, and a nonzero exit means at least one check failed. Fixtures use sample entities and example.com addresses; simulated store calls never need credentials. The tests cover parsing, failure cases, identifier/CSV consistency, attribution and accounting as well as configurable brand/audience behavior. They do not certify live platform compatibility or legal compliance.
 
 Root `.gitignore` entries for runtime folders are anchored so fixture subdirectories remain trackable. `.gitattributes` uses `* -text` to preserve fixture bytes through Git checkouts.
 
